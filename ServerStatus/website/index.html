@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>南琴浪 云监控</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="南琴浪 云监控">
+		<meta name="author" content="nanqinlang">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/dark.css" title="dark">
+		<link rel="stylesheet" href="css/light.css" title="light">
+		<style>
+			body {
+				padding-top: 70px;
+				padding-bottom: 30px;
+			}
+		</style>
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div role="navigation" class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<div class="navbar-header">
+						<button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a href="#" class="navbar-brand">南琴浪 云监控</a>
+					</div>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li class="dropdown">
+								<a data-toggle="dropdown" class="dropdown-toggle" href="#">Style<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="#" onclick="setActiveStyleSheet('dark')">Night</a></li>
+									<li><a href="#" onclick="setActiveStyleSheet('light')">Light</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div>
+			</div>
+		</div>
+
+		<div class="container content">
+			<div id="loading-notice">
+				<noscript>
+					<div class="alert alert-danger" style="text-align: center;">
+						<strong>Enable JavaScript</strong>
+					</div>
+				</noscript>
+				<div class="progress progress-striped active">
+					<div class="progress-bar progress-bar-warning" style="width: 100%;">Loading...</div>
+				</div>
+				<div style="text-align: center;">
+			    Please Check Javascript <br/> Or Service Seems Not Started
+				</div>
+				<p></p>
+			</div>
+			<table class="table table-striped table-condensed table-hover">
+				<thead>
+				<tr>
+					<th id="status4" style="text-align: center;">Status</th>
+					<th id="name">Name</th>
+					<th id="type">Virtual</th>
+					<th id="location">Location</th>
+					<th id="uptime">Time</th>
+					<th id="load">Load</th>
+					<th id="network">Net ↓|↑</th>
+					<th id="traffic">Traffic ↓|↑</th>
+					<th id="cpu">CPU</th>
+					<th id="ram">RAM</th>
+					<th id="hdd">Disk</th>
+				</tr>
+				</thead>
+				<tbody id="servers">
+				<!-- Servers here \o/ -->
+				</tbody>
+			</table>
+			<br />
+			<div id="updated" style="margin-left: 5px;">Updating...</div>
+		</div>
+
+		<div class="container">
+			<p style="text-align: center; font-size: 10px;">
+            <p>© 2017 <a href="https://www.nanqinlang.com">南琴浪博客</a> 专属云监控<br></a>
+			</p>
+		</div>
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/serverstatus.js"></script>
+	</body>
+</html>

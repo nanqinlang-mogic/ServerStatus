@@ -1,0 +1,21 @@
+{ "servers":
+	[
+		{
+			"username": "nanqinlang1",
+			"name": "南琴浪博客",
+			"type": "KVM",
+			"location": "LosAngeles",
+			"password": "nanqinlang",
+		},	
+	
+	
+		{
+			"username": "nanqinlang2",
+			"name": "www.nanqinlang.com",
+			"type": "KVM",
+			"location": "LosAngeles",
+			"password": "nanqinlang",
+		}
+		
+	]
+}

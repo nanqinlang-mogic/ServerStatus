@@ -1,7 +1,7 @@
 # ServerStatus
 there is a `customize design version for nanqinlang`
 
-Live demo : https://status.nanqinlang.com
+Live demo : https://www.nanqinlang.com/status
 
 this repo works as this following :
 1. `server` listens on tcp port 65535

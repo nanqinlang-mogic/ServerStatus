@@ -1,4 +1,9 @@
 # ServerStatus
+[![build](https://github.com/SuzukazeAoran/SVG/blob/master/build%20passing.svg)](https://github.com/nanqinlang/ServerStatus-nanqinlang)
+[![language](https://github.com/SuzukazeAoran/SVG/blob/master/language-JavaScript-blue.svg)](https://github.com/nanqinlang/ServerStatus-nanqinlang)
+[![author](https://github.com/SuzukazeAoran/SVG/blob/master/author-nanqinlang-lightgrey.svg)](https://github.com/nanqinlang/ServerStatus-nanqinlang)
+[![name](https://github.com/SuzukazeAoran/SVG/blob/master/license-GNU3.0-orange.svg)](https://github.com/nanqinlang/ServerStatus-nanqinlang)
+
 there is a `customize design version for nanqinlang`
 
 Live demo : https://www.nanqinlang.com/status

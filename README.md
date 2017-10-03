@@ -1,12 +1,12 @@
 # ServerStatus
-[![build](https://github.com/SuzukazeAoran/SVG/blob/master/build%20passing.svg)](https://github.com/nanqinlang/ServerStatus-nanqinlang)
-[![language](https://github.com/SuzukazeAoran/SVG/blob/master/language-JavaScript-blue.svg)](https://github.com/nanqinlang/ServerStatus-nanqinlang)
-[![author](https://github.com/SuzukazeAoran/SVG/blob/master/author-nanqinlang-lightgrey.svg)](https://github.com/nanqinlang/ServerStatus-nanqinlang)
-[![name](https://github.com/SuzukazeAoran/SVG/blob/master/license-GNU3.0-orange.svg)](https://github.com/nanqinlang/ServerStatus-nanqinlang)
+[![Build Status](https://github.com/nanqinlang/SVG/blob/master/build%20passing.svg)](https://github.com/nanqinlang/ServerStatus-nanqinlang)
+[![language](https://github.com/nanqinlang/SVG/blob/master/language-JavaScript-blue.svg)](https://github.com/nanqinlang/ServerStatus-nanqinlang)
+[![author](https://github.com/nanqinlang/SVG/blob/master/author-nanqinlang-lightgrey.svg)](https://github.com/nanqinlang/ServerStatus-nanqinlang)
+[![license](https://github.com/nanqinlang/SVG/blob/master/license-GPLv3-orange.svg)](https://github.com/nanqinlang/ServerStatus-nanqinlang)
 
-there is a `customize design version for nanqinlang`
+there is a `customized design version for nanqinlang`
 
-Live demo : https://www.nanqinlang.com/status
+Live demo : https://status.nanqinlang.com
 
 this repo works as this following :
 1. `server` listens on tcp port 65535

@@ -6,7 +6,7 @@
 
 there is a `customized design version for nanqinlang`
 
-Live demo : https://status.nanqinlang.com
+Live demo : https://www.nanqinlang.com/status
 
 this repo works as this following :
 1. `server` listens on tcp port 65535
@@ -20,9 +20,10 @@ include dir :
 - `~/server` server files
 - `~/website` website files
 
-# server
+## server
+
 ### clone required files
-```bash
+```git
 git clone https://github.com/nanqinlang/ServerStatus-nanqinlang.git
 ```
 
@@ -58,7 +59,7 @@ example:
 ```bash
 cd ~/ServerStatus/server
 chmod 7777 ServerStatus
-./ServerStatus --config=config.json --web-dir=~/ServerStatus/website(your ServerStatus dir)
+./ServerStatus --config=config.json --web-dir=~/ServerStatus/website(your ServerStatus-website absolute dir)
 
 # background working
 nohup ./ServerStatus --config=config.json --web-dir=~/~ &
@@ -76,11 +77,12 @@ server {
 }
 ```
 
-# client
-this client only works on `Linux`  
+## client
+this client only works on `Linux`
+
 ### modify client config
 vim client.py
-```
+```js
 # ip of server
 SERVER = "x.x.x.x"
 # if there are both server and client in your vps, use "127.0.0.1"
@@ -100,6 +102,6 @@ INTERVAL = 5
 
 ### running client.py
 upload `client.py` to your client vps, then
-```
+```bash
 nohup python client.py &
 ```

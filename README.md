@@ -6,7 +6,7 @@
 
 there is a `customized design version for nanqinlang`
 
-Live demo : https://www.nanqinlang.com/status
+Live demo : https://sometimesnaive.org/status/
 
 this repo works as this following :
 1. `server` listens on tcp port 65535
@@ -45,7 +45,7 @@ example:
 	
 		{
 			"username": "nanqinlang2",
-			"name": "www.nanqinlang.com",
+			"name": "sometimesnaive.org",
 			"type": "KVM",
 			"location": "LosAngeles",
 			"password": "nanqinlang",

@@ -105,3 +105,7 @@ upload `client.py` to your client vps, then
 ```bash
 nohup python client.py &
 ```
+
+## According
+中文文档  
+https://sometimesnaive.org/article/linux/repo/serverstatus

@@ -1,8 +1,8 @@
 # ServerStatus
-[![Build Status](https://github.com/nanqinlang/SVG/blob/master/build%20passing.svg)](https://github.com/nanqinlang/ServerStatus-nanqinlang)
-[![language](https://github.com/nanqinlang/SVG/blob/master/language-JavaScript-blue.svg)](https://github.com/nanqinlang/ServerStatus-nanqinlang)
-[![author](https://github.com/nanqinlang/SVG/blob/master/author-nanqinlang-lightgrey.svg)](https://github.com/nanqinlang/ServerStatus-nanqinlang)
-[![license](https://github.com/nanqinlang/SVG/blob/master/license-GPLv3-orange.svg)](https://github.com/nanqinlang/ServerStatus-nanqinlang)
+[![Build Status](https://github.com/nanqinlang/SVG/blob/master/build%20passing.svg)](https://github.com/nanqinlang-mogic/ServerStatus)
+[![language](https://github.com/nanqinlang/SVG/blob/master/language-JavaScript-blue.svg)](https://github.com/nanqinlang-mogic/ServerStatus)
+[![author](https://github.com/nanqinlang/SVG/blob/master/author-nanqinlang-lightgrey.svg)](https://github.com/nanqinlang-mogic/ServerStatus)
+[![license](https://github.com/nanqinlang/SVG/blob/master/license-GPLv3-orange.svg)](https://github.com/nanqinlang-mogic/ServerStatus)
 
 there is a `customized design version for nanqinlang`
 
@@ -24,7 +24,7 @@ include dir :
 
 ### clone required files
 ```git
-git clone https://github.com/nanqinlang/ServerStatus-nanqinlang.git
+git clone https://github.com/nanqinlang-mogic/ServerStatus.git
 ```
 
 ### server config
@@ -40,17 +40,17 @@ example:
 			"type": "KVM",
 			"location": "LosAngeles",
 			"password": "nanqinlang",
-		},	
-	
-	
+		},
+
+
 		{
 			"username": "nanqinlang2",
-			"name": "sometimesnaive.org",
+			"name": "https://sometimesnaive.org",
 			"type": "KVM",
 			"location": "LosAngeles",
 			"password": "nanqinlang",
 		}
-		
+
 	]
 }
 ```
